@@ -7,7 +7,6 @@ This guide provides instructions for running the backend of the submitted anomal
 # Summary Description of the Model
 The anomaly detection model leverages a neural network. The network consists of fully connected layers with ReLU activations and dropout for regularization. It outputs the probability of an anomaly for a given set of inputs, which is thresholded to generate binary predictions (0 for normal and 1 for anomaly). The model was trained using data from satellites and stations. Training used a binary cross-entropy loss function optimized with the Adam optimizer. The model's architecture and trained parameters are stored in the model.pth file, ensuring consistent predictions during inference.
 
-# Prerequisites
 # Environment Setup
 Ensure the following are installed:
 
